@@ -154,4 +154,4 @@ if __name__ == '__main__':
     print("📍 Health Check: http://localhost:5000/health")
     print("="*60)
     print("\n💡 Tip: Press CTRL+C to stop the server\n")
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    app.run(host="0.0.0.0", port=10000)
